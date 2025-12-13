@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    text-align: center;
+    background-image: url(fondo\ header.jpg);
+    padding: 20px;
+    color: white;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color:rgb(43, 109, 207);
+}
+.menu-principal ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal li {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu-principal a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+}
+
+.menu-principal li a:hover {
+    background-color: rgb(23, 60, 116);
+}
+
+.contenedor {
+    text-align: center;
+}
+.contenedor img {
+    margin: 5px;
+    width: 75%; 
+    height: 75%;
+}
+
