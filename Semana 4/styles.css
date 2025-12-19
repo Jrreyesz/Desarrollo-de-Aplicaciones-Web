@@ -1,0 +1,80 @@
+.titulo {
+    background-color: #5C52CB;
+    color: #FFF;
+    text-align: center;
+
+
+}
+
+.col_pers {
+    background-color: #107093; /* Fondo suave para diferenciar */
+    border: 1px solid #000000; /* Borde para visualizar bien */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 15px; /* Espacio entre columnas en pantallas pequeñas */
+}
+
+.contenedor {
+    margin-top: 40px;
+}
+
+.contenedor h3 {
+    color: #331093;
+}
+
+.contenedor p {
+    color: #FFF;
+    text;
+}
+
+.contenedor img {
+    margin-bottom: 15px;
+    height: 147px;
+    width: 100%;
+}
+
+.titulo-contacto {
+    background-color: #331093;
+    text-align: center;
+    color: #FFF;
+}
+
+.btn-animado {
+    transition: all 0.3s ease; 
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-animado:hover {
+    transform: scale(1.05);    
+    background-color: #0056b3;   
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
+}
+
+.btn-animado:active {
+    transform: scale(0.95);       
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 1.8rem; 
+    }
+
+    .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-animado {
+        width: 100%; 
+    }
+}
