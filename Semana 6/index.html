@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <div>
+        <form id="mi-formulario" action="URL" method="GET|POST">
+            <label for="nombre"> Nombre:
+                <input type="text" id="nombre" name="nombre" minlength="3" required placeholder="Tu nombre aquí">
+            </label>
+            <br>
+            <br>
+
+            <label for="correo"> Correo:
+                <input type="email" id="email" name="email" required placeholder="Ingresa tu Email">
+            </label>
+            <span id="error-email" style="color: rgb(0, 0, 0); font-size: 12px; display: block;"></span>
+            <br>
+            <br>
+
+            <label for="contraseña"> Contraseña:
+                <input type="password" id="contraseña" name="contraseña" minlength="8" required placeholder="Escribe tu contraseña">
+            </label>
+            <br>
+            <br>
+
+            <label for="conf-contraseña"> Confirmar contraseña:
+                <input type="password" name="conf-contraseña" id="conf-contraseña" minlength="8" required placeholder="Confirma tu contraseña">
+            </label>
+            <span id="mensaje-error" style="color: rgb(0, 0, 0); font-size: 12px; display: block; margin-top: 5px;"></span>
+            <br>
+            <br>
+
+            <label for="edad"> Edad:
+                <input type="number" name="edad" id="edad" required placeholder="Escribe tu edad">
+            </label>
+            <span id="error-edad" style="color: rgb(0, 0, 0); font-size: 12px; display: block;"></span>
+            <br>
+            <br>
+
+            <button type="submit" id="boton-enviar" disabled>Enviar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

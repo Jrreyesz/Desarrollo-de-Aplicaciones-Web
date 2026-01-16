@@ -1,0 +1,22 @@
+h1 {
+    background-color: #1479F0;
+    color: #FFFF;
+    text-align: center;
+}
+
+div {
+    padding: 30px;
+    background-color: #8D7DF0;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px;
+}
