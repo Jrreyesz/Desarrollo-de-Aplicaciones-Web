@@ -1,0 +1,23 @@
+
+
+h1 {
+    text-align: center;
+    background-color: #0c6688;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    display: none; 
+}
+input:invalid, textarea:invalid {
+    border: 2px solid red;
+}
+input:valid, textarea:valid {
+    border: 2px solid green;
+}
+
+footer {
+    background-color: #0c6688;
+    text-align: center;
+}
